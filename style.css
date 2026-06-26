@@ -1,111 +1,107 @@
-<!--I choose vibrant yellow-organe because in my opinion, that gives off the summer vibe and the navy blue font will contrast well. Plus, I like navy blue-->
-body{
-  background-color: r g b (255, 159, 0)
-    color: #0b1d3a
-    font-family: Georgia, serif
-    margin: 27 px:
-  line-height: 1:63;
-
-
-  
-}
-   
-
-h1,h2 {
-  color: #0b1d3a;
+body {
+    background-color: rgb(255, 159, 0);
+    font-family: Georgia, serif;
+    color: #0b1d3a;
+    margin: 29px 26px 31px 26px;
+    line-height: 1.63;
 }
 
-sp-navframe {
-  margin-bottom: 36 px;
+h1, h2 {
+    color: #0b1d3a;
+    margin-bottom: 21px;
 }
 
-sp-btn {
-  background-color: #0b1d3a;
-  color: #ffffff;
-  padding: 13 px 24 px 
-  font-size: 14 px;
-  font-family: Arial, sans serif;
-  border: none;
-  cursor: pointer;
-  border-radius: 4 px;
-
+.my-summer-navigation-bar {
+  margin-bottom: 34px; 
 }
 
-
-.sp-mendbox {
-  position: relative;
-  display: inline-block;
+.my-summer-next-page {
+    background-color: #0b1d3a;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 11px 23px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
 }
 
-.sp-dropdown-links {
+.my-drop-down-menu-navigation {
+    display: inline-block;
+    position: relative;
+}
+
+.my-dropdown-links-container {
     display: none;
     position: absolute;
     background-color: #ffffff;        
-    min-width: 154 px;
-    box-shadow: 0 px 8 px 18 px r g b a (0,0,0,0.15);
-    z-index: 1;
-    border-radius: 4 px;
+    min-width: 153px;
+    box-shadow: 0px 7px 15px rgba(0,0,0,0.14);
+    z-index: 99;
+    border-radius: 4px;
 }
-.sp-dropdown-links a {
+
+.my-dropdown-links-container a {
     color: #0b1d3a;                   
-    padding: 13 px 17 px;               
+    padding: 12px 18px;               
     text-decoration: none;            
     display: block;
     font-family: Arial, sans-serif;
 }
 
-.sp-dropdown-links a:hover {
+.my-dropdown-links-container a:hover {
     background-color: #eef2f7;        
 }
 
-.sp-menubox:hover .sp-dropdown-links {
-    display: block;
+.my-drop-down-menu-navigation:hover .my-dropdown-links-container {
+    display: block !important;
 }
-<!--This is for the list of summer holidays, since I chose summer-->
-.sp-holiday-list {
-    font-family: Helvetica, Arial, sans-serif; 
-    font-size: 21 px;                          
-    margin: 18 px 0 28 px 22 px;
+
+.summer-holidays {
+    font-family: Helvetica, Arial, sans-serif !important; 
+    font-size: 21px !important;                          
+    margin: 17px 0 27px 21px;
     padding: 0;
 }
 
-.sp-holiday-list li {
-    margin-bottom: 9 px;                      
+.summer-holidays li {
+    margin-bottom: 10px;                      
 }
 
-.sp-about-text {
-    font-family: Helvetica, Arial, sans-serif; 
-    font-size: 21 px;                          
+.reasons-for-summer {
+    font-family: Helvetica, Arial, sans-serif !important; 
+    font-size: 21px !important;                          
+    line-height: 1.7;
 }
-.sp-mla-block {
-    max-width: 528 px;                 
-    margin: 32 px 0;
+
+.mla-9-citations {
+    max-width: 445px !important;
+    margin: 33px 0;
     padding: 0;
 }
 
-.sp-mla-block img {
-    width: 100 %;                      
-    height: auto;                     
+.mla-9-citations img {
+    width: 100% !important;
+    max-width: 445px !important;
+    height: auto !important;                     
     display: block;
-    border: 1 px solid #d1d1d1;
-    border-radius: 5 px;               
-    box-shadow: 0 5 px 12 px r g b a (0, 0, 0, 0.12); 
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;               
+    box-shadow: 0 4px 11px rgba(0, 0, 0, 0.13); 
 }
 
-<!--This is for my MLA Citation Picture caption of the beatiful sunset-->
-.sp-mla-block figcaption {
-    font-family: "Times New Roman", Times, serif; 
-    font-size: 13 px;                              
-    color: #2b2b2b;                               
-    margin-top: 11 px;
-    line-height: 1.45;
+.mla-9-citations figcaption {
+    font-family: "Times New Roman", Times, serif !important; 
+    font-size: 13px !important;                              
+    color: #2b2b2b !important;                               
+    margin-top: 12px;
+    line-height: 1.43;
 }
-.sp-author {
+
+.author-name {
     font-weight: bold;                
 }
 
-.sp-pic-title {
+.name-of-the-picture-taken {
     font-style: italic;               
 }
-  
-  
